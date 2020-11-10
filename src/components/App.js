@@ -7,10 +7,10 @@ class App extends Component {
         return(
             <div id="main">
                {
-                   <ol key={relativeList}>
-                        <li key={relativeListItem1}>Sweets</li>
-                        <li key={relativeListItem2}>Clothes</li>
-                        <li key={relativeListItem3}>Crackers</li>
+                   <ol key='relativeList'>
+                        <li key='relativeListItem1'>Sweets</li>
+                        <li key='relativeListItem2'>Clothes</li>
+                        <li key='relativeListItem3'>Crackers</li>
                     </ol>
                }
                
